@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		603ECA2625CD42260019C3D2 /* DigiLockerAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603ECA2225CD42260019C3D2 /* DigiLockerAuthController.m */; };
+		603ECA2725CD42260019C3D2 /* DigiLockerGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = 603ECA2425CD42260019C3D2 /* DigiLockerGeneric.m */; };
+		609F9D1325CBBF3D0099B4F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9D1225CBBF3D0099B4F1 /* AppDelegate.m */; };
+		609F9D1625CBBF3D0099B4F1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9D1525CBBF3D0099B4F1 /* SceneDelegate.m */; };
+		609F9D1925CBBF3D0099B4F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9D1825CBBF3D0099B4F1 /* ViewController.m */; };
+		609F9D1C25CBBF3D0099B4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609F9D1A25CBBF3D0099B4F1 /* Main.storyboard */; };
+		609F9D1E25CBBF410099B4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609F9D1D25CBBF410099B4F1 /* Assets.xcassets */; };
+		609F9D2125CBBF410099B4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609F9D1F25CBBF410099B4F1 /* LaunchScreen.storyboard */; };
+		609F9D2425CBBF410099B4F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9D2325CBBF410099B4F1 /* main.m */; };
+		609F9D2E25CBBF420099B4F1 /* DigiLockerAuthenticationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9D2D25CBBF420099B4F1 /* DigiLockerAuthenticationTests.m */; };
+		609F9D3925CBBF420099B4F1 /* DigiLockerAuthenticationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9D3825CBBF420099B4F1 /* DigiLockerAuthenticationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		609F9D2A25CBBF420099B4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 609F9D0625CBBF3D0099B4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609F9D0D25CBBF3D0099B4F1;
+			remoteInfo = DigiLockerAuthentication;
+		};
+		609F9D3525CBBF420099B4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 609F9D0625CBBF3D0099B4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609F9D0D25CBBF3D0099B4F1;
+			remoteInfo = DigiLockerAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		603ECA2225CD42260019C3D2 /* DigiLockerAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigiLockerAuthController.m; sourceTree = "<group>"; };
+		603ECA2325CD42260019C3D2 /* DigiLockerGeneric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigiLockerGeneric.h; sourceTree = "<group>"; };
+		603ECA2425CD42260019C3D2 /* DigiLockerGeneric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigiLockerGeneric.m; sourceTree = "<group>"; };
+		603ECA2525CD42260019C3D2 /* DigiLockerAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigiLockerAuthController.h; sourceTree = "<group>"; };
+		609F9D0E25CBBF3D0099B4F1 /* DigiLockerAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiLockerAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		609F9D1125CBBF3D0099B4F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		609F9D1225CBBF3D0099B4F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		609F9D1425CBBF3D0099B4F1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		609F9D1525CBBF3D0099B4F1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		609F9D1725CBBF3D0099B4F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		609F9D1825CBBF3D0099B4F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		609F9D1B25CBBF3D0099B4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		609F9D1D25CBBF410099B4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		609F9D2025CBBF410099B4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		609F9D2225CBBF410099B4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609F9D2325CBBF410099B4F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		609F9D2925CBBF420099B4F1 /* DigiLockerAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigiLockerAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		609F9D2D25CBBF420099B4F1 /* DigiLockerAuthenticationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigiLockerAuthenticationTests.m; sourceTree = "<group>"; };
+		609F9D2F25CBBF420099B4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609F9D3425CBBF420099B4F1 /* DigiLockerAuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigiLockerAuthenticationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		609F9D3825CBBF420099B4F1 /* DigiLockerAuthenticationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigiLockerAuthenticationUITests.m; sourceTree = "<group>"; };
+		609F9D3A25CBBF420099B4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		609F9D0B25CBBF3D0099B4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609F9D2625CBBF420099B4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609F9D3125CBBF420099B4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		609F9D0525CBBF3D0099B4F1 = {
+			isa = PBXGroup;
+			children = (
+				609F9D1025CBBF3D0099B4F1 /* DigiLockerAuthentication */,
+				609F9D2C25CBBF420099B4F1 /* DigiLockerAuthenticationTests */,
+				609F9D3725CBBF420099B4F1 /* DigiLockerAuthenticationUITests */,
+				609F9D0F25CBBF3D0099B4F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		609F9D0F25CBBF3D0099B4F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				609F9D0E25CBBF3D0099B4F1 /* DigiLockerAuthentication.app */,
+				609F9D2925CBBF420099B4F1 /* DigiLockerAuthenticationTests.xctest */,
+				609F9D3425CBBF420099B4F1 /* DigiLockerAuthenticationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		609F9D1025CBBF3D0099B4F1 /* DigiLockerAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				609F9D1125CBBF3D0099B4F1 /* AppDelegate.h */,
+				609F9D1225CBBF3D0099B4F1 /* AppDelegate.m */,
+				609F9D1425CBBF3D0099B4F1 /* SceneDelegate.h */,
+				609F9D1525CBBF3D0099B4F1 /* SceneDelegate.m */,
+				609F9D1725CBBF3D0099B4F1 /* ViewController.h */,
+				609F9D1825CBBF3D0099B4F1 /* ViewController.m */,
+				603ECA2525CD42260019C3D2 /* DigiLockerAuthController.h */,
+				603ECA2225CD42260019C3D2 /* DigiLockerAuthController.m */,
+				603ECA2325CD42260019C3D2 /* DigiLockerGeneric.h */,
+				603ECA2425CD42260019C3D2 /* DigiLockerGeneric.m */,
+				609F9D1A25CBBF3D0099B4F1 /* Main.storyboard */,
+				609F9D1D25CBBF410099B4F1 /* Assets.xcassets */,
+				609F9D1F25CBBF410099B4F1 /* LaunchScreen.storyboard */,
+				609F9D2225CBBF410099B4F1 /* Info.plist */,
+				609F9D2325CBBF410099B4F1 /* main.m */,
+			);
+			path = DigiLockerAuthentication;
+			sourceTree = "<group>";
+		};
+		609F9D2C25CBBF420099B4F1 /* DigiLockerAuthenticationTests */ = {
+			isa = PBXGroup;
+			children = (
+				609F9D2D25CBBF420099B4F1 /* DigiLockerAuthenticationTests.m */,
+				609F9D2F25CBBF420099B4F1 /* Info.plist */,
+			);
+			path = DigiLockerAuthenticationTests;
+			sourceTree = "<group>";
+		};
+		609F9D3725CBBF420099B4F1 /* DigiLockerAuthenticationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				609F9D3825CBBF420099B4F1 /* DigiLockerAuthenticationUITests.m */,
+				609F9D3A25CBBF420099B4F1 /* Info.plist */,
+			);
+			path = DigiLockerAuthenticationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		609F9D0D25CBBF3D0099B4F1 /* DigiLockerAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609F9D3D25CBBF420099B4F1 /* Build configuration list for PBXNativeTarget "DigiLockerAuthentication" */;
+			buildPhases = (
+				609F9D0A25CBBF3D0099B4F1 /* Sources */,
+				609F9D0B25CBBF3D0099B4F1 /* Frameworks */,
+				609F9D0C25CBBF3D0099B4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigiLockerAuthentication;
+			productName = DigiLockerAuthentication;
+			productReference = 609F9D0E25CBBF3D0099B4F1 /* DigiLockerAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		609F9D2825CBBF420099B4F1 /* DigiLockerAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609F9D4025CBBF420099B4F1 /* Build configuration list for PBXNativeTarget "DigiLockerAuthenticationTests" */;
+			buildPhases = (
+				609F9D2525CBBF420099B4F1 /* Sources */,
+				609F9D2625CBBF420099B4F1 /* Frameworks */,
+				609F9D2725CBBF420099B4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609F9D2B25CBBF420099B4F1 /* PBXTargetDependency */,
+			);
+			name = DigiLockerAuthenticationTests;
+			productName = DigiLockerAuthenticationTests;
+			productReference = 609F9D2925CBBF420099B4F1 /* DigiLockerAuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		609F9D3325CBBF420099B4F1 /* DigiLockerAuthenticationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609F9D4325CBBF420099B4F1 /* Build configuration list for PBXNativeTarget "DigiLockerAuthenticationUITests" */;
+			buildPhases = (
+				609F9D3025CBBF420099B4F1 /* Sources */,
+				609F9D3125CBBF420099B4F1 /* Frameworks */,
+				609F9D3225CBBF420099B4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609F9D3625CBBF420099B4F1 /* PBXTargetDependency */,
+			);
+			name = DigiLockerAuthenticationUITests;
+			productName = DigiLockerAuthenticationUITests;
+			productReference = 609F9D3425CBBF420099B4F1 /* DigiLockerAuthenticationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		609F9D0625CBBF3D0099B4F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					609F9D0D25CBBF3D0099B4F1 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					609F9D2825CBBF420099B4F1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 609F9D0D25CBBF3D0099B4F1;
+					};
+					609F9D3325CBBF420099B4F1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 609F9D0D25CBBF3D0099B4F1;
+					};
+				};
+			};
+			buildConfigurationList = 609F9D0925CBBF3D0099B4F1 /* Build configuration list for PBXProject "DigiLockerAuthentication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 609F9D0525CBBF3D0099B4F1;
+			productRefGroup = 609F9D0F25CBBF3D0099B4F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				609F9D0D25CBBF3D0099B4F1 /* DigiLockerAuthentication */,
+				609F9D2825CBBF420099B4F1 /* DigiLockerAuthenticationTests */,
+				609F9D3325CBBF420099B4F1 /* DigiLockerAuthenticationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		609F9D0C25CBBF3D0099B4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609F9D2125CBBF410099B4F1 /* LaunchScreen.storyboard in Resources */,
+				609F9D1E25CBBF410099B4F1 /* Assets.xcassets in Resources */,
+				609F9D1C25CBBF3D0099B4F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609F9D2725CBBF420099B4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609F9D3225CBBF420099B4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		609F9D0A25CBBF3D0099B4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603ECA2725CD42260019C3D2 /* DigiLockerGeneric.m in Sources */,
+				609F9D1925CBBF3D0099B4F1 /* ViewController.m in Sources */,
+				609F9D1325CBBF3D0099B4F1 /* AppDelegate.m in Sources */,
+				609F9D2425CBBF410099B4F1 /* main.m in Sources */,
+				609F9D1625CBBF3D0099B4F1 /* SceneDelegate.m in Sources */,
+				603ECA2625CD42260019C3D2 /* DigiLockerAuthController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609F9D2525CBBF420099B4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609F9D2E25CBBF420099B4F1 /* DigiLockerAuthenticationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609F9D3025CBBF420099B4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609F9D3925CBBF420099B4F1 /* DigiLockerAuthenticationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		609F9D2B25CBBF420099B4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609F9D0D25CBBF3D0099B4F1 /* DigiLockerAuthentication */;
+			targetProxy = 609F9D2A25CBBF420099B4F1 /* PBXContainerItemProxy */;
+		};
+		609F9D3625CBBF420099B4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609F9D0D25CBBF3D0099B4F1 /* DigiLockerAuthentication */;
+			targetProxy = 609F9D3525CBBF420099B4F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		609F9D1A25CBBF3D0099B4F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609F9D1B25CBBF3D0099B4F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		609F9D1F25CBBF410099B4F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609F9D2025CBBF410099B4F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		609F9D3B25CBBF420099B4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		609F9D3C25CBBF420099B4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		609F9D3E25CBBF420099B4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7KR8D5MT4;
+				INFOPLIST_FILE = DigiLockerAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.digilocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		609F9D3F25CBBF420099B4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7KR8D5MT4;
+				INFOPLIST_FILE = DigiLockerAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abbie.digilocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		609F9D4125CBBF420099B4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigiLockerAuthenticationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katy.sample.DigiLockerAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigiLockerAuthentication.app/DigiLockerAuthentication";
+			};
+			name = Debug;
+		};
+		609F9D4225CBBF420099B4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigiLockerAuthenticationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katy.sample.DigiLockerAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigiLockerAuthentication.app/DigiLockerAuthentication";
+			};
+			name = Release;
+		};
+		609F9D4425CBBF420099B4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigiLockerAuthenticationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katy.sample.DigiLockerAuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigiLockerAuthentication;
+			};
+			name = Debug;
+		};
+		609F9D4525CBBF420099B4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigiLockerAuthenticationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katy.sample.DigiLockerAuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigiLockerAuthentication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		609F9D0925CBBF3D0099B4F1 /* Build configuration list for PBXProject "DigiLockerAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609F9D3B25CBBF420099B4F1 /* Debug */,
+				609F9D3C25CBBF420099B4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609F9D3D25CBBF420099B4F1 /* Build configuration list for PBXNativeTarget "DigiLockerAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609F9D3E25CBBF420099B4F1 /* Debug */,
+				609F9D3F25CBBF420099B4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609F9D4025CBBF420099B4F1 /* Build configuration list for PBXNativeTarget "DigiLockerAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609F9D4125CBBF420099B4F1 /* Debug */,
+				609F9D4225CBBF420099B4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609F9D4325CBBF420099B4F1 /* Build configuration list for PBXNativeTarget "DigiLockerAuthenticationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609F9D4425CBBF420099B4F1 /* Debug */,
+				609F9D4525CBBF420099B4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 609F9D0625CBBF3D0099B4F1 /* Project object */;
+}
